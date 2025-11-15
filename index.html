@@ -18,7 +18,8 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Featured Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#opensource">Open Source</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -32,13 +33,13 @@
         <section id="home" class="hero">
             <div class="hero-content">
                 <h1>Hello, I'm <span class="highlight">Amola Hinge</span></h1>
-                <p class="hero-subtitle">Software Engineer - ML/Data Orchestration</p>
+                <p class="hero-subtitle">Software Engineer - AI/ML & Data Infrastructure</p>
                 <p class="hero-description">
-                    Building next-generation Data & ML orchestration platforms at Apple, while shaping the future of open-source and global innovation.
+                    Software Engineer specializing in AI, ML and big-data infrastructure at Apple's Cloud AI Studio.
                 </p>
                 <div class="hero-links">
                     <div class="hero-links-container">
-                        <a href="mailto:ahinge@wisc.edu" target="_blank" class="hero-link">
+                        <a href="mailto:amola.hinge@gmail.com" target="_blank" class="hero-link">
                             <i class="fas fa-envelope"></i>
                             <span>Email</span>
                         </a>
@@ -65,10 +66,10 @@
                 <div class="about-content">
                     <div class="about-text">
                         <p>
-                            I'm passionate about building infrastructure platforms that empower engineers. At Apple, I'm building the next-generation ML/Data Pipelines platform that powers workflows across the company. Earlier at Meta, I contributed to DevServer and DevSpace, core infrastructure used daily by engineers.
+                            I'm passionate about building AI/ML infrastructure platforms that empower engineers at scale. At Apple's Cloud AI Studio, I architect and build multi-tenant data and workflow orchestration platforms that support teams behind Apple Intelligence, Siri, iCloud, Maps, Wallet, and Search.
                         </p>
                         <p>
-                            Beyond engineering, I'm passionate about cooking, traveling, and sports — whether it's testing a new recipe, exploring a new city, or staying active outdoors. I also contribute to open source, mentor through hackathons and conferences, and engage with the global community to push the boundaries of infrastructure.
+                            Previously at Meta, I contributed to DevServer and DevSpace infrastructure used by 50,000+ engineers. At J.P. Morgan, I co-developed the bank's first Hadoop/Spark ecosystem processing 50+ TB/day. Beyond work, I contribute to open source projects like Elyra AI Pipelines, mentor through hackathons and conferences, and enjoy cooking, traveling, and sports.
                         </p>
                     </div>
                     <div class="about-stats">
@@ -130,35 +131,47 @@
                 <h2>Skills & Technologies</h2>
                 <div class="skills-grid">
                     <div class="skill-category">
-                        <h3>Programming & Data</h3>
+                        <h3>Programming Languages</h3>
                         <div class="skill-items">
                             <span class="skill-item">Python</span>
                             <span class="skill-item">Java</span>
                             <span class="skill-item">C++</span>
+                            <span class="skill-item">Rust</span>
+                            <span class="skill-item">Hack</span>
                             <span class="skill-item">SQL</span>
-                            <span class="skill-item">Apache Spark</span>
-                            <span class="skill-item">Kafka</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3>MLOps & Infrastructure</h3>
+                        <h3>AI/ML & Data Platforms</h3>
                         <div class="skill-items">
+                            <span class="skill-item">PyTorch</span>
+                            <span class="skill-item">TensorFlow</span>
+                            <span class="skill-item">Jupyter</span>
+                            <span class="skill-item">scikit-learn</span>
                             <span class="skill-item">Airflow</span>
+                            <span class="skill-item">Flyte</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Distributed Systems & Cloud</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Apache Spark</span>
+                            <span class="skill-item">Kafka</span>
                             <span class="skill-item">Kubernetes</span>
                             <span class="skill-item">Docker</span>
                             <span class="skill-item">AWS</span>
-                            <span class="skill-item">Redis</span>
+                            <span class="skill-item">Hadoop</span>
                         </div>
                     </div>
                     <div class="skill-category">
-                        <h3>Databases & Frameworks</h3>
+                        <h3>Frameworks & Tools</h3>
                         <div class="skill-items">
-                            <span class="skill-item">PostgreSQL</span>
-                            <span class="skill-item">DynamoDB</span>
-                            <span class="skill-item">gRPC</span>
+                            <span class="skill-item">React</span>
                             <span class="skill-item">GraphQL</span>
                             <span class="skill-item">Spring</span>
-                            <span class="skill-item">React</span>
+                            <span class="skill-item">gRPC</span>
+                            <span class="skill-item">MySQL</span>
+                            <span class="skill-item">DynamoDB</span>
                         </div>
                     </div>
                 </div>
@@ -171,13 +184,112 @@
         
         <section id="projects" class="projects">
             <div class="container">
-                <h2>Featured Projects</h2>
-                <div class="coming-soon">
-                    <div class="coming-soon-icon">
-                        🚀
+                <h2>Technical Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Distributed Systems Framework | <a href="https://github.com/amolahinge/distributed-systems-framework" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a></h3>
+                            <p class="project-tech">Async I/O • Fault Tolerance</p>
+                            <p class="project-description">
+                                Implemented coordination protocols including membership, leader election, replication, and failure detection. Evaluated consistency-latency tradeoffs under network delays and node failures.
+                            </p>
+                        </div>
                     </div>
-                    <h3>Coming Soon</h3>
-                    <p>Exciting projects showcase is currently under development. Check back soon!</p>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Federated Learning Framework | <a href="https://github.com/amolahinge/federated-learning-framework" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a></h3>
+                            <p class="project-tech">Machine Learning •  Edge Computing</p>
+                            <p class="project-description">
+                                Designed a federated learning system with gRPC-based client-server orchestration, supporting distributed model updates and secure parameter aggregation across simulated edge devices.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Distributed Log Analytics Pipeline | <a href="https://github.com/amolahinge/log-analytics-pipeline" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a></h3>
+                            <p class="project-tech"> Big Data • HDFS • Apache Spark </p>
+                            <p class="project-description">
+                                Built a scalable log analytics pipeline using Spark and HDFS, implementing custom partitioners and shuffle optimizations. Benchmarked performance on 100GB+ datasets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="opensource" class="opensource">
+            <div class="container">
+                <h2>Open Source Contributions</h2>
+                <div class="opensource-grid">
+                    <div class="opensource-card">
+                        <div class="opensource-header">
+                            <div class="opensource-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="opensource-info">
+                                <h3>Elyra AI Pipelines | <a href="https://github.com/elyra-ai/elyra" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a></h3>
+                                <p class="opensource-org">LF AI & Data Foundation</p>
+                                <div class="opensource-stats">
+                                    <span class="stat-item">
+                                        <i class="fas fa-star"></i>
+                                        2000+ Stars
+                                    </span>
+                                    <span class="stat-item">
+                                        <i class="fas fa-building"></i>
+                                        IBM, Red Hat
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opensource-contributions">
+                            <ul class="contribution-list">
+                                <li>Integrated Airflow 3.0 runtime support for Elyra</li>
+                                <li>Added Jupyter AI integration for assisted notebook debugging</li>
+                                <li>Active contributor and reviewer for the project</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="publications-section">
+                    <h3>Publications & Leadership</h3>
+                    <div class="activities-grid">
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Research Publication</h4>
+                                <p>"Visualization of Free-Body Diagrams Using Natural Language Processing" - International Journal of Computer Applications, 2017</p>
+                                <a href="https://ijcaonline.org/archives/volume165/number11/27615-2017914049/" target="_blank" class="publication-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Read Publication
+                                </a>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="activity-content">
+                                <h4>Outside Work</h4>
+                                <ul class="activity-list">
+                                    <li>Backend Developer at Catalysts for Social Action (2018-2019)</li>
+                                    <li>Digital Literacy Volunteer with Teach For India (2016-2017)</li>
+                                    <li>Computer Society of India - Coordinator (2015-2016)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
